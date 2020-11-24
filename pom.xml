@@ -719,17 +719,20 @@
                 <artifactId>jetty-maven-plugin</artifactId>
                 <version>${org.eclipse.jetty.version}</version>
                 <configuration>
+                    <stopPort>8080</stopPort>
+                    <stopKey>lavagna</stopKey>
+                    <stopWait>10</stopWait>
                     <!-- <webApp> <contextPath>/test</contextPath> </webApp> -->
                     <httpConnector>
                         <port>${jetty.port}</port>
                         <host>${jetty.host}</host>
                     </httpConnector>
                     <systemProperties>
-                        <!--<systemProperty>
+                        <systemProperty>
                             <name>spring.profiles.active</name>
                             <value>${spring.profiles.active}</value>
-                            <value>prod</value>
-                        </systemProperty>-->
+                            <value>dev-mysql</value>
+                        </systemProperty>
                         <!-- if you want to test the fromData configuration feature
                         <systemProperty>
                             <name>spring.profiles.active</name>
@@ -840,7 +843,7 @@
                 <fast-build>false</fast-build>
                 <jetty.port>8080</jetty.port>
                 <jetty.host>0.0.0.0</jetty.host>
-                <datasource.dialect>HSQLDB</datasource.dialect>
+                <datasource.dialect>MYSQL</datasource.dialect>
                 <!-- <datasource.driver>net.sf.log4jdbc.sql.jdbcapi.DriverSpy</datasource.driver> -->
                 <!-- <datasource.url>jdbc:log4jdbc:hsqldb:mem:lavagna</datasource.url> -->
                 <datasource.url>jdbc:hsqldb:mem:lavagna</datasource.url>
@@ -873,7 +876,7 @@
                 <!-- <datasource.url>jdbc:log4jdbc:mysql://localhost:3306/lavagna</datasource.url> -->
                 <datasource.url>jdbc:mysql://localhost:3306/lavagna</datasource.url>
                 <datasource.username>root</datasource.username>
-                <datasource.password />
+                <datasource.password>admin</datasource.password>
                 <spring.profiles.active>dev</spring.profiles.active>
             </properties>
         </profile>
