@@ -19,9 +19,9 @@ package io.lavagna.config;
 import com.samskivert.mustache.Mustache;
 import io.lavagna.common.Json;
 import io.lavagna.common.Version;
-import io.lavagna.model.Key;
-import io.lavagna.model.Role;
-import io.lavagna.model.UserToCreate;
+import io.lavagna.ext.model.Key;
+import io.lavagna.ext.model.Role;
+import io.lavagna.ext.model.UserToCreate;
 import io.lavagna.service.ConfigurationRepository;
 import io.lavagna.service.Ldap;
 import io.lavagna.service.UserRepository;
@@ -145,7 +145,7 @@ public class WebSecurityConfig {
         private final int id;
         private final boolean anonymous;
 
-        private WebSecurityUser(io.lavagna.model.User user) {
+        private WebSecurityUser(io.lavagna.ext.model.User user) {
             this.id = user.getId();
             this.anonymous = user.getAnonymous();
         }

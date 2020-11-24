@@ -17,9 +17,9 @@
 package io.lavagna.query;
 
 import ch.digitalfondue.npjt.*;
-import io.lavagna.model.Card;
-import io.lavagna.model.CardFull;
-import io.lavagna.model.Event;
+import io.lavagna.ext.model.Card;
+import io.lavagna.ext.model.CardFull;
+import io.lavagna.ext.model.Event;
 
 import java.util.Collection;
 import java.util.List;

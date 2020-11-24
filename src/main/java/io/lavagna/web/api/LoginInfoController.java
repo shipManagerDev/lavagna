@@ -18,8 +18,8 @@ package io.lavagna.web.api;
 
 import com.google.gson.reflect.TypeToken;
 import io.lavagna.common.Json;
-import io.lavagna.model.Key;
-import io.lavagna.model.Permission;
+import io.lavagna.ext.model.Key;
+import io.lavagna.ext.model.Permission;
 import io.lavagna.service.ConfigurationRepository;
 import io.lavagna.web.helper.ExpectPermission;
 import io.lavagna.web.security.LoginHandler;

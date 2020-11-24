@@ -16,8 +16,8 @@
  */
 package io.lavagna.web.api.model
 
-import io.lavagna.model.BoardColumnDefinition
-import io.lavagna.model.ColumnDefinition
+import io.lavagna.ext.model.BoardColumnDefinition
+import io.lavagna.ext.model.ColumnDefinition
 
 open class TaskStatistics(tasks: Map<ColumnDefinition, Int>,
                           columnDefinitions: Map<ColumnDefinition, BoardColumnDefinition>) {

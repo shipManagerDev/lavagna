@@ -16,7 +16,7 @@
  */
 package io.lavagna.service;
 
-import io.lavagna.model.*;
+import io.lavagna.ext.model.*;
 import io.lavagna.query.StatisticsQuery;
 import org.apache.commons.lang3.ObjectUtils;
 import org.springframework.dao.EmptyResultDataAccessException;

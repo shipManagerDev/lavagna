@@ -16,11 +16,11 @@
  */
 package io.lavagna.service;
 
-import io.lavagna.model.BoardColumn.BoardColumnLocation;
-import io.lavagna.model.Card;
-import io.lavagna.model.CardFull;
-import io.lavagna.model.Event;
-import io.lavagna.model.User;
+import io.lavagna.ext.model.BoardColumn.BoardColumnLocation;
+import io.lavagna.ext.model.Card;
+import io.lavagna.ext.model.CardFull;
+import io.lavagna.ext.model.Event;
+import io.lavagna.ext.model.User;
 import io.lavagna.query.CardQuery;
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.StringUtils;

@@ -16,7 +16,7 @@
  */
 package io.lavagna.web.api;
 
-import io.lavagna.model.Permission;
+import io.lavagna.ext.model.Permission;
 import io.lavagna.web.helper.AbstractPermissionUrlPath;
 import io.lavagna.web.helper.ExpectPermission;
 import io.lavagna.web.helper.PermissionMethodInterceptor;

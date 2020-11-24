@@ -18,9 +18,9 @@ package io.lavagna.service;
 
 import com.google.gson.reflect.TypeToken;
 import io.lavagna.common.Read;
-import io.lavagna.model.*;
-import io.lavagna.model.CardLabel.LabelDomain;
-import io.lavagna.model.CardLabel.LabelType;
+import io.lavagna.ext.model.*;
+import io.lavagna.ext.model.CardLabel.LabelDomain;
+import io.lavagna.ext.model.CardLabel.LabelType;
 import io.lavagna.query.StatisticsQuery;
 import io.lavagna.service.PermissionService.RoleAndPermissionsWithUsers;
 import org.apache.commons.lang3.builder.CompareToBuilder;

@@ -16,7 +16,7 @@
  */
 package io.lavagna.service.importexport;
 
-import io.lavagna.model.*;
+import io.lavagna.ext.model.*;
 import io.lavagna.service.CardDataService;
 import io.lavagna.service.CardRepository;
 import io.lavagna.service.UserRepository;

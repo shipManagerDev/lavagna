@@ -16,8 +16,8 @@
  */
 package io.lavagna.service;
 
-import io.lavagna.model.*;
-import io.lavagna.model.BoardColumn.BoardColumnLocation;
+import io.lavagna.ext.model.*;
+import io.lavagna.ext.model.BoardColumn.BoardColumnLocation;
 import io.lavagna.query.BoardQuery;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;

@@ -17,7 +17,7 @@
 package io.lavagna.query;
 
 import ch.digitalfondue.npjt.*;
-import io.lavagna.model.*;
+import io.lavagna.ext.model.*;
 
 import java.util.Collection;
 import java.util.List;

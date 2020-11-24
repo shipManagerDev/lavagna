@@ -20,9 +20,9 @@ import ch.digitalfondue.npjt.Bind;
 import ch.digitalfondue.npjt.Query;
 import ch.digitalfondue.npjt.QueryRepository;
 import ch.digitalfondue.npjt.QueryType;
-import io.lavagna.model.CalendarInfo;
-import io.lavagna.model.User;
-import io.lavagna.model.UserWithPassword;
+import io.lavagna.ext.model.CalendarInfo;
+import io.lavagna.ext.model.User;
+import io.lavagna.ext.model.UserWithPassword;
 
 import java.util.Collection;
 import java.util.Date;

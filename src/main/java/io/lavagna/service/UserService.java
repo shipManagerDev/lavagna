@@ -17,7 +17,7 @@
 package io.lavagna.service;
 
 import com.lambdaworks.crypto.SCryptUtil;
-import io.lavagna.model.*;
+import io.lavagna.ext.model.*;
 import io.lavagna.service.PermissionService.ProjectRoleAndPermissionFullHolder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

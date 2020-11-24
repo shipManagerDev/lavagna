@@ -17,9 +17,9 @@
 package io.lavagna.service;
 
 import io.lavagna.common.LavagnaEnvironment;
-import io.lavagna.model.ConfigurationKeyValue;
-import io.lavagna.model.Key;
-import io.lavagna.model.UserToCreate;
+import io.lavagna.ext.model.ConfigurationKeyValue;
+import io.lavagna.ext.model.Key;
+import io.lavagna.ext.model.UserToCreate;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;

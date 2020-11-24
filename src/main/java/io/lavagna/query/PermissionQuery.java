@@ -20,7 +20,7 @@ import ch.digitalfondue.npjt.Bind;
 import ch.digitalfondue.npjt.Query;
 import ch.digitalfondue.npjt.QueryRepository;
 import ch.digitalfondue.npjt.QueryType;
-import io.lavagna.model.*;
+import io.lavagna.ext.model.*;
 
 import java.util.List;
 

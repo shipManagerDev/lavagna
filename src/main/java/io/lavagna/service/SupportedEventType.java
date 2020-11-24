@@ -16,9 +16,9 @@
  */
 package io.lavagna.service;
 
-import io.lavagna.model.CardDataMetadata;
-import io.lavagna.model.CardType;
-import io.lavagna.model.Event;
+import io.lavagna.ext.model.CardDataMetadata;
+import io.lavagna.ext.model.CardType;
+import io.lavagna.ext.model.Event;
 import org.apache.commons.lang3.tuple.ImmutablePair;
 
 import java.text.SimpleDateFormat;

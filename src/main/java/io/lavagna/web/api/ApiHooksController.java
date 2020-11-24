@@ -16,8 +16,8 @@
  */
 package io.lavagna.web.api;
 
-import io.lavagna.model.ApiHook;
-import io.lavagna.model.Permission;
+import io.lavagna.ext.model.ApiHook;
+import io.lavagna.ext.model.Permission;
 import io.lavagna.service.ApiHooksService;
 import io.lavagna.web.api.model.PluginCode;
 import io.lavagna.web.helper.ExpectPermission;

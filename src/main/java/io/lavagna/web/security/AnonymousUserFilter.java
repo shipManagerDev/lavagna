@@ -16,7 +16,7 @@
  */
 package io.lavagna.web.security;
 
-import io.lavagna.model.Key;
+import io.lavagna.ext.model.Key;
 import io.lavagna.service.ConfigurationRepository;
 import io.lavagna.web.security.SecurityConfiguration.SessionHandler;
 import io.lavagna.web.security.SecurityConfiguration.User;

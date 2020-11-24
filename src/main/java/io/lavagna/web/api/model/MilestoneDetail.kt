@@ -16,9 +16,9 @@
  */
 package io.lavagna.web.api.model
 
-import io.lavagna.model.ColumnDefinition
-import io.lavagna.model.Pair
-import io.lavagna.model.SearchResults
+import io.lavagna.ext.model.ColumnDefinition
+import io.lavagna.ext.model.Pair
+import io.lavagna.ext.model.SearchResults
 
 class MilestoneDetail
 @java.beans.ConstructorProperties("cardsCountByStatus", "statusColors", "cards", "assignedAndClosedCards")

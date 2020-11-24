@@ -17,10 +17,10 @@
 package io.lavagna.query;
 
 import ch.digitalfondue.npjt.*;
-import io.lavagna.model.CardLabel;
-import io.lavagna.model.CardLabelValue;
-import io.lavagna.model.LabelAndValue;
-import io.lavagna.model.LabelListValue;
+import io.lavagna.ext.model.CardLabel;
+import io.lavagna.ext.model.CardLabelValue;
+import io.lavagna.ext.model.LabelAndValue;
+import io.lavagna.ext.model.LabelListValue;
 
 import java.util.Date;
 import java.util.List;

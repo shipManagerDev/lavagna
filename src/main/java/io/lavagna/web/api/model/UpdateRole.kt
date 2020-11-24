@@ -16,7 +16,7 @@
  */
 package io.lavagna.web.api.model
 
-import io.lavagna.model.Permission
+import io.lavagna.ext.model.Permission
 
 class UpdateRole {
     var permissions: Set<Permission>? = null

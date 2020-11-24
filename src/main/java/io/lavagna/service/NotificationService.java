@@ -21,7 +21,7 @@ import com.samskivert.mustache.Mustache;
 import com.samskivert.mustache.MustacheException;
 import com.samskivert.mustache.Template;
 import com.samskivert.mustache.Template.Fragment;
-import io.lavagna.model.*;
+import io.lavagna.ext.model.*;
 import io.lavagna.query.NotificationQuery;
 import org.apache.commons.lang3.EnumUtils;
 import org.apache.commons.lang3.ObjectUtils;

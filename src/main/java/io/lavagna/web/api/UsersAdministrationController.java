@@ -18,9 +18,9 @@ package io.lavagna.web.api;
 
 import com.google.gson.reflect.TypeToken;
 import io.lavagna.common.Json;
-import io.lavagna.model.Permission;
-import io.lavagna.model.User;
-import io.lavagna.model.UserToCreate;
+import io.lavagna.ext.model.Permission;
+import io.lavagna.ext.model.User;
+import io.lavagna.ext.model.UserToCreate;
 import io.lavagna.service.EventEmitter;
 import io.lavagna.service.UserRepository;
 import io.lavagna.service.UserService;

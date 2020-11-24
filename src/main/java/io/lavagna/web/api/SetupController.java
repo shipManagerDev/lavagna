@@ -16,8 +16,8 @@
  */
 package io.lavagna.web.api;
 
-import io.lavagna.model.Pair;
-import io.lavagna.model.UserToCreate;
+import io.lavagna.ext.model.Pair;
+import io.lavagna.ext.model.UserToCreate;
 import io.lavagna.service.ExportImportService;
 import io.lavagna.service.Ldap;
 import io.lavagna.service.SetupService;

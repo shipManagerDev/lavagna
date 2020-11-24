@@ -16,8 +16,8 @@
  */
 package io.lavagna.service;
 
-import io.lavagna.model.Key;
-import io.lavagna.model.Pair;
+import io.lavagna.ext.model.Key;
+import io.lavagna.ext.model.Pair;
 import io.lavagna.service.LdapConnection.InitialDirContextCloseable;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.apache.logging.log4j.LogManager;

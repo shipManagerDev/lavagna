@@ -16,7 +16,7 @@
  */
 package io.lavagna.web.helper;
 
-import io.lavagna.model.User;
+import io.lavagna.ext.model.User;
 import io.lavagna.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.MethodParameter;

@@ -16,11 +16,11 @@
  */
 package io.lavagna.service;
 
-import io.lavagna.model.CardLabel.LabelType;
-import io.lavagna.model.CardLabelValue.LabelValue;
-import io.lavagna.model.Event;
-import io.lavagna.model.Event.EventType;
-import io.lavagna.model.EventsCount;
+import io.lavagna.ext.model.CardLabel.LabelType;
+import io.lavagna.ext.model.CardLabelValue.LabelValue;
+import io.lavagna.ext.model.Event;
+import io.lavagna.ext.model.Event.EventType;
+import io.lavagna.ext.model.EventsCount;
 import io.lavagna.query.EventQuery;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;

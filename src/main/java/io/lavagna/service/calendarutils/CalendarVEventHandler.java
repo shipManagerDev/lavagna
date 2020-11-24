@@ -17,7 +17,7 @@
 
 package io.lavagna.service.calendarutils;
 
-import io.lavagna.model.*;
+import io.lavagna.ext.model.*;
 import io.lavagna.service.CardDataService;
 import io.lavagna.service.UserRepository;
 import net.fortuna.ical4j.model.*;

@@ -16,12 +16,12 @@
  */
 package io.lavagna.service;
 
-import io.lavagna.model.CardFull;
-import io.lavagna.model.CardLabel;
-import io.lavagna.model.CardLabel.LabelDomain;
-import io.lavagna.model.CardLabelValue.LabelValue;
-import io.lavagna.model.LabelAndValue;
-import io.lavagna.model.User;
+import io.lavagna.ext.model.CardFull;
+import io.lavagna.ext.model.CardLabel;
+import io.lavagna.ext.model.CardLabel.LabelDomain;
+import io.lavagna.ext.model.CardLabelValue.LabelValue;
+import io.lavagna.ext.model.LabelAndValue;
+import io.lavagna.ext.model.User;
 import org.apache.commons.lang3.Validate;
 import org.apache.commons.lang3.tuple.ImmutablePair;
 import org.springframework.stereotype.Service;

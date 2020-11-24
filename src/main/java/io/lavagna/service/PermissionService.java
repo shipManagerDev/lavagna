@@ -16,7 +16,7 @@
  */
 package io.lavagna.service;
 
-import io.lavagna.model.*;
+import io.lavagna.ext.model.*;
 import io.lavagna.query.PermissionQuery;
 import org.apache.commons.lang3.Validate;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;

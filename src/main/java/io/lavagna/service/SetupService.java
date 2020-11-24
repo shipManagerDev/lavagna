@@ -16,8 +16,8 @@
  */
 package io.lavagna.service;
 
-import io.lavagna.model.ConfigurationKeyValue;
-import io.lavagna.model.UserToCreate;
+import io.lavagna.ext.model.ConfigurationKeyValue;
+import io.lavagna.ext.model.UserToCreate;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

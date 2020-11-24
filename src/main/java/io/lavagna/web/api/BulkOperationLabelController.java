@@ -16,10 +16,10 @@
  */
 package io.lavagna.web.api;
 
-import io.lavagna.model.CardFull;
-import io.lavagna.model.CardLabelValue.LabelValue;
-import io.lavagna.model.Permission;
-import io.lavagna.model.User;
+import io.lavagna.ext.model.CardFull;
+import io.lavagna.ext.model.CardLabelValue.LabelValue;
+import io.lavagna.ext.model.Permission;
+import io.lavagna.ext.model.User;
 import io.lavagna.service.BulkOperationService;
 import io.lavagna.service.CardRepository;
 import io.lavagna.service.EventEmitter;

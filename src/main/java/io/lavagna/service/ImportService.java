@@ -22,7 +22,7 @@ import com.julienvey.trello.domain.Board;
 import com.julienvey.trello.domain.Card;
 import com.julienvey.trello.domain.Label;
 import com.julienvey.trello.impl.TrelloImpl;
-import io.lavagna.model.*;
+import io.lavagna.ext.model.*;
 import io.lavagna.web.api.model.TrelloImportRequest;
 import io.lavagna.web.api.model.TrelloImportRequest.BoardIdAndShortName;
 import io.lavagna.web.api.model.TrelloRequest;

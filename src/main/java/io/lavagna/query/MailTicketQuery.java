@@ -17,8 +17,8 @@
 package io.lavagna.query;
 
 import ch.digitalfondue.npjt.*;
-import io.lavagna.model.ProjectMailTicket;
-import io.lavagna.model.ProjectMailTicketConfig;
+import io.lavagna.ext.model.ProjectMailTicket;
+import io.lavagna.ext.model.ProjectMailTicketConfig;
 
 import java.util.Date;
 import java.util.List;

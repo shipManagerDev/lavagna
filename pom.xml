@@ -30,6 +30,18 @@
         <tag>HEAD</tag>
     </scm>
 
+    <repositories>
+        <repository>
+            <id>lavagna-api-repo</id>
+            <url>file://${project.basedir}/lavagna-api</url>
+        </repository>
+
+        <repository>
+            <id>lavagna-model-repo</id>
+            <url>file://${project.basedir}/lavagna-model</url>
+        </repository>
+    </repositories>
+
     <developers>
         <developer>
             <name>Sylvain Jermini</name>
@@ -56,6 +68,18 @@
 
 
     <dependencies>
+        <dependency>
+            <groupId>io.lavagna</groupId>
+            <artifactId>lavagna-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.lavagna</groupId>
+            <artifactId>lavagna-model</artifactId>
+            <version>1.1.8-SNAPSHOT</version>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
@@ -338,6 +362,7 @@
             <version>${kotlin.version}</version>
             <scope>test</scope>
         </dependency>
+
     </dependencies>
 
     <!-- -->

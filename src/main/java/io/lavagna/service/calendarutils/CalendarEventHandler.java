@@ -17,10 +17,10 @@
 
 package io.lavagna.service.calendarutils;
 
-import io.lavagna.model.CardFullWithCounts;
-import io.lavagna.model.LabelAndValue;
-import io.lavagna.model.LabelListValueWithMetadata;
-import io.lavagna.model.SearchResults;
+import io.lavagna.ext.model.CardFullWithCounts;
+import io.lavagna.ext.model.LabelAndValue;
+import io.lavagna.ext.model.LabelListValueWithMetadata;
+import io.lavagna.ext.model.SearchResults;
 
 import java.net.URISyntaxException;
 import java.util.Date;

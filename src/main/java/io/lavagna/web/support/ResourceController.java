@@ -21,7 +21,7 @@ import com.samskivert.mustache.Template;
 import io.lavagna.common.Json;
 import io.lavagna.common.LavagnaEnvironment;
 import io.lavagna.common.Version;
-import io.lavagna.model.Permission;
+import io.lavagna.ext.model.Permission;
 import io.lavagna.web.helper.ExpectPermission;
 import io.lavagna.web.security.CSRFToken;
 import org.apache.commons.lang3.ObjectUtils;

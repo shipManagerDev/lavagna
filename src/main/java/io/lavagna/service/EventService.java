@@ -16,10 +16,10 @@
  */
 package io.lavagna.service;
 
-import io.lavagna.model.CardLabel;
-import io.lavagna.model.CardLabelValue;
-import io.lavagna.model.Event;
-import io.lavagna.model.LabelListValue;
+import io.lavagna.ext.model.CardLabel;
+import io.lavagna.ext.model.CardLabelValue;
+import io.lavagna.ext.model.Event;
+import io.lavagna.ext.model.LabelListValue;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

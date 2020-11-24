@@ -16,7 +16,7 @@
  */
 package io.lavagna.web.api;
 
-import io.lavagna.model.Key;
+import io.lavagna.ext.model.Key;
 import io.lavagna.service.ConfigurationRepository;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

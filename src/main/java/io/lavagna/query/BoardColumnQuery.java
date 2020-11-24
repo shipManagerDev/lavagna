@@ -17,8 +17,8 @@
 package io.lavagna.query;
 
 import ch.digitalfondue.npjt.*;
-import io.lavagna.model.BoardColumn;
-import io.lavagna.model.BoardColumnInfo;
+import io.lavagna.ext.model.BoardColumn;
+import io.lavagna.ext.model.BoardColumnInfo;
 
 import java.util.List;
 import java.util.Set;

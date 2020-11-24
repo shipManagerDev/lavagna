@@ -16,9 +16,9 @@
  */
 package io.lavagna.service;
 
-import io.lavagna.model.ProjectMailTicket;
-import io.lavagna.model.ProjectMailTicketConfig;
-import io.lavagna.model.ProjectMailTicketConfigData;
+import io.lavagna.ext.model.ProjectMailTicket;
+import io.lavagna.ext.model.ProjectMailTicketConfig;
+import io.lavagna.ext.model.ProjectMailTicketConfigData;
 import io.lavagna.query.MailTicketQuery;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.stereotype.Repository;

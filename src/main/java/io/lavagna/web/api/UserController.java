@@ -17,7 +17,7 @@
 package io.lavagna.web.api;
 
 import com.lambdaworks.crypto.SCryptUtil;
-import io.lavagna.model.*;
+import io.lavagna.ext.model.*;
 import io.lavagna.service.*;
 import io.lavagna.web.api.model.DisplayNameEmail;
 import io.lavagna.web.api.model.UserPublicProfile;

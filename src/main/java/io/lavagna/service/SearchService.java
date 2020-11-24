@@ -16,7 +16,7 @@
  */
 package io.lavagna.service;
 
-import io.lavagna.model.*;
+import io.lavagna.ext.model.*;
 import io.lavagna.query.SearchQuery;
 import io.lavagna.service.SearchFilter.FilterType;
 import io.lavagna.service.SearchFilter.SearchContext;

@@ -16,8 +16,8 @@
  */
 package io.lavagna.web.api;
 
-import io.lavagna.model.*;
-import io.lavagna.model.BoardColumn.BoardColumnLocation;
+import io.lavagna.ext.model.*;
+import io.lavagna.ext.model.BoardColumn.BoardColumnLocation;
 import io.lavagna.service.*;
 import io.lavagna.web.helper.ExpectPermission;
 import org.apache.commons.lang3.Validate;

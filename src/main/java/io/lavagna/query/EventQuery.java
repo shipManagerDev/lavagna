@@ -17,8 +17,8 @@
 package io.lavagna.query;
 
 import ch.digitalfondue.npjt.*;
-import io.lavagna.model.Event;
-import io.lavagna.model.EventsCount;
+import io.lavagna.ext.model.Event;
+import io.lavagna.ext.model.EventsCount;
 
 import java.util.Collection;
 import java.util.Date;

@@ -16,10 +16,10 @@
  */
 package io.lavagna.service;
 
-import io.lavagna.model.BoardColumn;
-import io.lavagna.model.BoardColumn.BoardColumnLocation;
-import io.lavagna.model.BoardColumnInfo;
-import io.lavagna.model.User;
+import io.lavagna.ext.model.BoardColumn;
+import io.lavagna.ext.model.BoardColumn.BoardColumnLocation;
+import io.lavagna.ext.model.BoardColumnInfo;
+import io.lavagna.ext.model.User;
 import io.lavagna.query.BoardColumnQuery;
 import org.apache.commons.lang3.Validate;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;

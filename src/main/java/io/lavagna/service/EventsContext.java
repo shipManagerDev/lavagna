@@ -16,11 +16,11 @@
  */
 package io.lavagna.service;
 
-import io.lavagna.model.BoardColumn;
-import io.lavagna.model.CardFull;
-import io.lavagna.model.CardLabel.LabelType;
-import io.lavagna.model.Event;
-import io.lavagna.model.User;
+import io.lavagna.ext.model.BoardColumn;
+import io.lavagna.ext.model.CardFull;
+import io.lavagna.ext.model.CardLabel.LabelType;
+import io.lavagna.ext.model.Event;
+import io.lavagna.ext.model.User;
 
 import java.text.SimpleDateFormat;
 import java.util.*;

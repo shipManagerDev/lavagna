@@ -16,8 +16,8 @@
  */
 package io.lavagna.web.api.model
 
-import io.lavagna.model.ColumnDefinition
-import io.lavagna.model.LabelListValue
+import io.lavagna.ext.model.ColumnDefinition
+import io.lavagna.ext.model.LabelListValue
 
 class MilestoneInfo
 @java.beans.ConstructorProperties("labelListValue", "cardsCountByStatus") constructor(

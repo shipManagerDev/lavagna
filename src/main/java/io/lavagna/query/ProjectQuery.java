@@ -17,9 +17,9 @@
 package io.lavagna.query;
 
 import ch.digitalfondue.npjt.*;
-import io.lavagna.model.BoardColumnDefinition;
-import io.lavagna.model.Project;
-import io.lavagna.model.ProjectWithEventCounts;
+import io.lavagna.ext.model.BoardColumnDefinition;
+import io.lavagna.ext.model.Project;
+import io.lavagna.ext.model.ProjectWithEventCounts;
 
 import java.util.Collection;
 import java.util.List;

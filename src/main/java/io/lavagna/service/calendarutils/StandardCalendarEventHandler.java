@@ -17,7 +17,7 @@
 
 package io.lavagna.service.calendarutils;
 
-import io.lavagna.model.*;
+import io.lavagna.ext.model.*;
 
 import java.util.Date;
 import java.util.HashSet;

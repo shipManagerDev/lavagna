@@ -17,10 +17,10 @@
 package io.lavagna.service;
 
 import io.lavagna.common.Json;
-import io.lavagna.model.*;
-import io.lavagna.model.CardLabelValue.LabelValue;
-import io.lavagna.model.apihook.From;
-import io.lavagna.model.apihook.Label;
+import io.lavagna.ext.model.*;
+import io.lavagna.ext.model.CardLabelValue.LabelValue;
+import io.lavagna.ext.model.apihook.From;
+import io.lavagna.ext.model.apihook.Label;
 import io.lavagna.query.ApiHookQuery;
 import io.lavagna.service.EventEmitter.LavagnaEvent;
 import org.apache.commons.lang3.tuple.Triple;
@@ -100,7 +100,7 @@ public class ApiHooksService {
         private final LavagnaEvent eventName;
         private final String projectName;
         private final Map<String, Object> env;
-        private final io.lavagna.model.apihook.User user;
+        private final io.lavagna.ext.model.apihook.User user;
 
         EventToRun(ApiHooksService apiHooksService, LavagnaEvent eventName, String projectName, User user, Map<String, Object> env) {
             this.apiHooksService = apiHooksService;
@@ -449,8 +449,8 @@ public class ApiHooksService {
         return configurationRepository.getValue(Key.BASE_APPLICATION_URL);
     }
 
-    private List<io.lavagna.model.apihook.Card> toList(List<CardFull> cards) {
-        List<io.lavagna.model.apihook.Card> res = new ArrayList<>(cards.size());
+    private List<io.lavagna.ext.model.apihook.Card> toList(List<CardFull> cards) {
+        List<io.lavagna.ext.model.apihook.Card> res = new ArrayList<>(cards.size());
         String baseUrl = baseUrl();
         for(CardFull cf : cards) {
             res.add(From.from(cf, baseUrl));

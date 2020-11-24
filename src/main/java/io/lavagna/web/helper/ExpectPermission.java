@@ -16,7 +16,7 @@
  */
 package io.lavagna.web.helper;
 
-import io.lavagna.model.Permission;
+import io.lavagna.ext.model.Permission;
 import org.springframework.web.method.HandlerMethod;
 
 import java.lang.annotation.ElementType;

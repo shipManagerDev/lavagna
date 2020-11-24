@@ -17,8 +17,8 @@
 package io.lavagna.service;
 
 import io.lavagna.common.Json;
-import io.lavagna.model.*;
-import io.lavagna.model.util.CalendarTokenNotFoundException;
+import io.lavagna.ext.model.*;
+import io.lavagna.ext.model.util.CalendarTokenNotFoundException;
 import io.lavagna.query.UserQuery;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.lang3.ArrayUtils;

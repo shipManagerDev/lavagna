@@ -16,7 +16,7 @@
  */
 package io.lavagna.web.api;
 
-import io.lavagna.model.*;
+import io.lavagna.ext.model.*;
 import io.lavagna.service.ConfigurationRepository;
 import io.lavagna.service.Ldap;
 import io.lavagna.web.api.model.Conf;

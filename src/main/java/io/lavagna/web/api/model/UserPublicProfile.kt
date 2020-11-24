@@ -16,10 +16,10 @@
  */
 package io.lavagna.web.api.model
 
-import io.lavagna.model.Event
-import io.lavagna.model.EventsCount
-import io.lavagna.model.ProjectWithEventCounts
-import io.lavagna.model.User
+import io.lavagna.ext.model.Event
+import io.lavagna.ext.model.EventsCount
+import io.lavagna.ext.model.ProjectWithEventCounts
+import io.lavagna.ext.model.User
 
 class UserPublicProfile(user: User, val dailyActivity: List<EventsCount>,
                         val activeProjects: List<ProjectWithEventCounts>, val latestActivityByPage: List<Event>) {

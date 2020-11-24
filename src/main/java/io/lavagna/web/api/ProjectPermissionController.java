@@ -16,7 +16,7 @@
  */
 package io.lavagna.web.api;
 
-import io.lavagna.model.*;
+import io.lavagna.ext.model.*;
 import io.lavagna.service.EventEmitter;
 import io.lavagna.service.PermissionService;
 import io.lavagna.service.PermissionService.RoleAndPermissions;

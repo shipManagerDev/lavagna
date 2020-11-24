@@ -16,8 +16,8 @@
  */
 package io.lavagna.service.calendarutils
 
-import io.lavagna.model.CardFullWithCounts
-import io.lavagna.model.LabelListValueWithMetadata
+import io.lavagna.ext.model.CardFullWithCounts
+import io.lavagna.ext.model.LabelListValueWithMetadata
 import java.util.*
 
 class CalendarEvents

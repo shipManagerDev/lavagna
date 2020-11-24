@@ -16,8 +16,8 @@
  */
 package io.lavagna.web.helper;
 
-import io.lavagna.model.Event.EventType;
-import io.lavagna.model.UserWithPermission;
+import io.lavagna.ext.model.Event.EventType;
+import io.lavagna.ext.model.UserWithPermission;
 import io.lavagna.service.EventRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

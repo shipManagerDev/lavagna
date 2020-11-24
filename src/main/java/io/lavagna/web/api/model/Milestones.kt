@@ -16,7 +16,7 @@
  */
 package io.lavagna.web.api.model
 
-import io.lavagna.model.ColumnDefinition
+import io.lavagna.ext.model.ColumnDefinition
 
 class Milestones
 @java.beans.ConstructorProperties("milestones", "statusColors") constructor(

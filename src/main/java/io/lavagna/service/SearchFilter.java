@@ -16,8 +16,8 @@
  */
 package io.lavagna.service;
 
-import io.lavagna.model.ColumnDefinition;
-import io.lavagna.model.UserWithPermission;
+import io.lavagna.ext.model.ColumnDefinition;
+import io.lavagna.ext.model.UserWithPermission;
 import io.lavagna.query.SearchQuery;
 
 import java.text.ParseException;

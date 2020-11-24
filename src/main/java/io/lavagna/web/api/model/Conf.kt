@@ -16,7 +16,7 @@
  */
 package io.lavagna.web.api.model
 
-import io.lavagna.model.ConfigurationKeyValue
+import io.lavagna.ext.model.ConfigurationKeyValue
 
 open class Conf {
     var toUpdateOrCreate: List<ConfigurationKeyValue>? = null

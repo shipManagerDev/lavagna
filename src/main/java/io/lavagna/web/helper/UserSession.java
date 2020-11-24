@@ -17,8 +17,8 @@
 package io.lavagna.web.helper;
 
 import io.lavagna.common.CookieNames;
-import io.lavagna.model.User;
-import io.lavagna.model.UserWithPermission;
+import io.lavagna.ext.model.User;
+import io.lavagna.ext.model.UserWithPermission;
 import io.lavagna.service.UserRepository;
 import io.lavagna.service.UserService;
 import io.lavagna.web.security.CSRFToken;

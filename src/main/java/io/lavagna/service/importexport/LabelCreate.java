@@ -16,9 +16,9 @@
  */
 package io.lavagna.service.importexport;
 
-import io.lavagna.model.*;
-import io.lavagna.model.CardLabelValue.LabelValue;
-import io.lavagna.model.Event.EventType;
+import io.lavagna.ext.model.*;
+import io.lavagna.ext.model.CardLabelValue.LabelValue;
+import io.lavagna.ext.model.Event.EventType;
 import io.lavagna.service.*;
 
 import java.nio.file.Path;

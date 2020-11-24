@@ -16,7 +16,7 @@
  */
 package io.lavagna.service;
 
-import io.lavagna.model.*;
+import io.lavagna.ext.model.*;
 import io.lavagna.service.mailreceiver.ImapMailReceiver;
 import io.lavagna.service.mailreceiver.MailReceiver;
 import io.lavagna.service.mailreceiver.Pop3MailReceiver;

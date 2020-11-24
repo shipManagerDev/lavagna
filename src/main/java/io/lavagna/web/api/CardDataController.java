@@ -16,8 +16,8 @@
  */
 package io.lavagna.web.api;
 
-import io.lavagna.model.*;
-import io.lavagna.model.Event.EventType;
+import io.lavagna.ext.model.*;
+import io.lavagna.ext.model.Event.EventType;
 import io.lavagna.service.*;
 import io.lavagna.web.helper.CardCommentOwnershipChecker;
 import io.lavagna.web.helper.ExpectPermission;

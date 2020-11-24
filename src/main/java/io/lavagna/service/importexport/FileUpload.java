@@ -18,7 +18,7 @@ package io.lavagna.service.importexport;
 
 import com.google.gson.reflect.TypeToken;
 import io.lavagna.common.Read;
-import io.lavagna.model.*;
+import io.lavagna.ext.model.*;
 import io.lavagna.service.CardDataService;
 import io.lavagna.service.CardRepository;
 import io.lavagna.service.UserRepository;

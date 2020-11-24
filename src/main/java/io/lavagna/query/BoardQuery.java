@@ -17,10 +17,10 @@
 package io.lavagna.query;
 
 import ch.digitalfondue.npjt.*;
-import io.lavagna.model.Board;
-import io.lavagna.model.BoardColumnDefinition;
-import io.lavagna.model.BoardInfo;
-import io.lavagna.model.ProjectAndBoard;
+import io.lavagna.ext.model.Board;
+import io.lavagna.ext.model.BoardColumnDefinition;
+import io.lavagna.ext.model.BoardInfo;
+import io.lavagna.ext.model.ProjectAndBoard;
 
 import java.util.List;
 

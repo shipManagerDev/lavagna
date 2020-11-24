@@ -16,8 +16,8 @@
  */
 package io.lavagna.web.helper;
 
-import io.lavagna.model.Permission;
-import io.lavagna.model.UserWithPermission;
+import io.lavagna.ext.model.Permission;
+import io.lavagna.ext.model.UserWithPermission;
 import io.lavagna.service.ProjectService;
 import io.lavagna.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;

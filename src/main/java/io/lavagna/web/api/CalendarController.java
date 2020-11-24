@@ -16,9 +16,9 @@
  */
 package io.lavagna.web.api;
 
-import io.lavagna.model.CalendarInfo;
-import io.lavagna.model.Permission;
-import io.lavagna.model.UserWithPermission;
+import io.lavagna.ext.model.CalendarInfo;
+import io.lavagna.ext.model.Permission;
+import io.lavagna.ext.model.UserWithPermission;
 import io.lavagna.service.CalendarService;
 import io.lavagna.service.UserRepository;
 import io.lavagna.service.calendarutils.CalendarEvents;

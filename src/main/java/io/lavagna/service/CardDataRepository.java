@@ -16,9 +16,9 @@
  */
 package io.lavagna.service;
 
-import io.lavagna.model.BoardColumn.BoardColumnLocation;
-import io.lavagna.model.*;
-import io.lavagna.model.Event.EventType;
+import io.lavagna.ext.model.BoardColumn.BoardColumnLocation;
+import io.lavagna.ext.model.*;
+import io.lavagna.ext.model.Event.EventType;
 import io.lavagna.query.CardDataQuery;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

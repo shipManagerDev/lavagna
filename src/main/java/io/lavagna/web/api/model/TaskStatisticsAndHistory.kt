@@ -16,7 +16,7 @@
  */
 package io.lavagna.web.api.model
 
-import io.lavagna.model.*
+import io.lavagna.ext.model.*
 
 class TaskStatisticsAndHistory(tasks: Map<ColumnDefinition, Int>,
                                columnDefinitions: Map<ColumnDefinition, BoardColumnDefinition>,

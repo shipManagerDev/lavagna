@@ -16,8 +16,8 @@
  */
 package io.lavagna.service;
 
-import io.lavagna.model.*;
-import io.lavagna.model.Event.EventType;
+import io.lavagna.ext.model.*;
+import io.lavagna.ext.model.Event.EventType;
 import org.apache.commons.lang3.Validate;
 import org.apache.commons.lang3.tuple.ImmutablePair;
 import org.springframework.stereotype.Service;

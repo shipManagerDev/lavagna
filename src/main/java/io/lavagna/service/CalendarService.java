@@ -16,9 +16,9 @@
  */
 package io.lavagna.service;
 
-import io.lavagna.model.*;
-import io.lavagna.model.CardLabel.LabelType;
-import io.lavagna.model.util.CalendarTokenNotFoundException;
+import io.lavagna.ext.model.*;
+import io.lavagna.ext.model.CardLabel.LabelType;
+import io.lavagna.ext.model.util.CalendarTokenNotFoundException;
 import io.lavagna.service.calendarutils.CalendarEventHandler;
 import io.lavagna.service.calendarutils.CalendarEvents;
 import io.lavagna.service.calendarutils.CalendarVEventHandler;

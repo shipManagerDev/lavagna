@@ -16,7 +16,7 @@
  */
 package io.lavagna.web.helper;
 
-import io.lavagna.model.UserWithPermission;
+import io.lavagna.ext.model.UserWithPermission;
 
 import javax.servlet.http.HttpServletRequest;
 

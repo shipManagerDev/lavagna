@@ -19,8 +19,8 @@ package io.lavagna.query;
 import ch.digitalfondue.npjt.Bind;
 import ch.digitalfondue.npjt.Query;
 import ch.digitalfondue.npjt.QueryRepository;
-import io.lavagna.model.ApiHook;
-import io.lavagna.model.ApiHookNameAndVersion;
+import io.lavagna.ext.model.ApiHook;
+import io.lavagna.ext.model.ApiHookNameAndVersion;
 
 import java.util.List;
 

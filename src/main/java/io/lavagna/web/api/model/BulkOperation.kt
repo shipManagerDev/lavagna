@@ -1,6 +1,6 @@
 package io.lavagna.web.api.model
 
-import io.lavagna.model.CardLabelValue
+import io.lavagna.ext.model.CardLabelValue
 
 class BulkOperation(
     val labelId: Int?,

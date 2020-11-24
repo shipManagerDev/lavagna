@@ -17,7 +17,7 @@
 
 package io.lavagna.service;
 
-import io.lavagna.model.*;
+import io.lavagna.ext.model.*;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;

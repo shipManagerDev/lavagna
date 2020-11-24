@@ -16,8 +16,8 @@
  */
 package io.lavagna.web.api;
 
-import io.lavagna.model.*;
-import io.lavagna.model.util.ShortNameGenerator;
+import io.lavagna.ext.model.*;
+import io.lavagna.ext.model.util.ShortNameGenerator;
 import io.lavagna.service.*;
 import io.lavagna.web.api.model.Suggestion;
 import io.lavagna.web.api.model.TaskStatistics;

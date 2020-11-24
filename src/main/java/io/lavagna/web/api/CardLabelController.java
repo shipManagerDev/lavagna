@@ -16,8 +16,8 @@
  */
 package io.lavagna.web.api;
 
-import io.lavagna.model.*;
-import io.lavagna.model.CardLabel.LabelDomain;
+import io.lavagna.ext.model.*;
+import io.lavagna.ext.model.CardLabel.LabelDomain;
 import io.lavagna.service.CardLabelRepository;
 import io.lavagna.service.EventEmitter;
 import io.lavagna.service.ProjectService;

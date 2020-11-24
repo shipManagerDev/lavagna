@@ -16,8 +16,8 @@
  */
 package io.lavagna.service;
 
-import io.lavagna.model.EventFull;
-import io.lavagna.model.ImportContext;
+import io.lavagna.ext.model.EventFull;
+import io.lavagna.ext.model.ImportContext;
 
 import java.nio.file.Path;
 

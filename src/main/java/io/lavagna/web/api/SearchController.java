@@ -18,8 +18,8 @@ package io.lavagna.web.api;
 
 import com.google.gson.reflect.TypeToken;
 import io.lavagna.common.Json;
-import io.lavagna.model.*;
-import io.lavagna.model.CardLabel.LabelDomain;
+import io.lavagna.ext.model.*;
+import io.lavagna.ext.model.CardLabel.LabelDomain;
 import io.lavagna.service.*;
 import io.lavagna.web.helper.ExpectPermission;
 import org.apache.commons.lang3.StringUtils;

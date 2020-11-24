@@ -19,7 +19,7 @@ package io.lavagna.query;
 import ch.digitalfondue.npjt.Bind;
 import ch.digitalfondue.npjt.Query;
 import ch.digitalfondue.npjt.QueryRepository;
-import io.lavagna.model.ListValueMetadata;
+import io.lavagna.ext.model.ListValueMetadata;
 
 import java.util.Collection;
 import java.util.List;

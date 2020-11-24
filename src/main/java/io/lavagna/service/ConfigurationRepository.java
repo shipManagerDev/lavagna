@@ -16,8 +16,8 @@
  */
 package io.lavagna.service;
 
-import io.lavagna.model.ConfigurationKeyValue;
-import io.lavagna.model.Key;
+import io.lavagna.ext.model.ConfigurationKeyValue;
+import io.lavagna.ext.model.Key;
 import io.lavagna.query.ConfigurationQuery;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Repository;

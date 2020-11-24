@@ -16,8 +16,8 @@
  */
 package io.lavagna.web.api;
 
-import io.lavagna.model.Permission;
-import io.lavagna.model.User;
+import io.lavagna.ext.model.Permission;
+import io.lavagna.ext.model.User;
 import io.lavagna.service.ExportImportService;
 import io.lavagna.service.ImportService;
 import io.lavagna.service.ImportService.TrelloBoardsResponse;
